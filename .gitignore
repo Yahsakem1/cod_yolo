@@ -1,0 +1,46 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ===== Виртуальные окружения =====
+.venv/
+venv/
+env/
+.env
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== IDE / ОС =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Датасет =====
+# Игнорируем всё в корневой data/ (не трогает src/data/)
+/data/*
+# ...кроме конфига и описаний
+!/data/data.yaml
+!/data/Readme.txt
+!/data/Info/
+
+# ===== Результаты обучения / веса =====
+runs/
+outputs/
+checkpoints/
+wandb/
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# ===== Логи и временные файлы =====
+*.log
+*.tmp
