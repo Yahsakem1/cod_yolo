@@ -1,0 +1,23 @@
+# ==========================
+# Данные и EDA
+# ==========================
+numpy
+pandas
+matplotlib
+seaborn
+pillow
+opencv-python          # import cv2 (на сервере без GUI можно заменить на opencv-python-headless)
+scikit-image           # skimage.feature: graycomatrix, graycoprops (GLCM-текстуры)
+
+# ==========================
+# Эксперименты
+# ==========================
+ultralytics            # YOLO-seg; сам подтягивает torch и torchvision
+pysodmetrics           # S-measure, E-measure, weighted F, MAE для COD-метрик
+tqdm
+
+# ==========================
+# Ноутбуки
+# ==========================
+jupyter
+ipykernel
